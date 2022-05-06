@@ -22,3 +22,9 @@ export interface IFood {
     setIsOpen: () => void;
     handleAddFood: (food: IFood) => Promise<void>;
   }
+
+  export interface IModalProps {
+      isOpen: boolean;
+      setIsOpen: () => void;
+      children: React.ReactNode;
+  }
