@@ -41,3 +41,10 @@ export interface IFood {
   export interface IHeaderProps {
     openModal: () => void;
   }
+
+  export interface IFoodProps {
+    key: number;
+    food: IFoodID;
+    handleDelete: (id: number) => Promise<void>;
+    handleEditFood: (food: IFoodID) => void;
+  }
