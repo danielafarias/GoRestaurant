@@ -7,6 +7,14 @@
       "price": "21.90",
       "available": true,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png"
+    },
+    {
+      "image": "https://conteudo.imguol.com.br/57/2015/07/06/empanadas-de-palmito-martin-fierro-1436210048449_1800x1200.jpg",
+      "name": "Empanadas de Palmitos",
+      "price": "16.50",
+      "description": "Empanadas de palmitos e tomates",
+      "available": true,
+      "id": 3
     }
   ]
 }

@@ -16,3 +16,9 @@ export interface IFood {
     editingFood: IFoodID;
     handleUpdateFood: (food: IFood) => Promise<void>;
   }
+
+  export interface IAddProps {
+    isOpen: boolean;
+    setIsOpen: () => void;
+    handleAddFood: (food: IFood) => Promise<void>;
+  }
