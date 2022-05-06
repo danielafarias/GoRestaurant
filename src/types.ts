@@ -1,3 +1,6 @@
+import { IconBaseProps } from "react-icons";
+import { string } from "yup";
+
 export interface IFood {
     image: string,
     name: string,
@@ -27,4 +30,10 @@ export interface IFood {
       isOpen: boolean;
       setIsOpen: () => void;
       children: React.ReactNode;
+  }
+
+  export interface IInputProps {
+      name: string;
+      icon?: React.ComponentType<IconBaseProps>;
+      placeholder?: string;
   }
