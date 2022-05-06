@@ -1,5 +1,4 @@
 import { IconBaseProps } from "react-icons";
-import { string } from "yup";
 
 export interface IFood {
     image: string,
