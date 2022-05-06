@@ -37,3 +37,7 @@ export interface IFood {
       icon?: React.ComponentType<IconBaseProps>;
       placeholder?: string;
   }
+
+  export interface IHeaderProps {
+    openModal: () => void;
+  }

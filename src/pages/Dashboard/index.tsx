@@ -25,11 +25,6 @@ function Dashboard() {
     handleFoods();
   }, []);
 
-console.log(foods)
-console.log(editingFood)
-console.log(modalOpen)
-console.log(editModalOpen)
-
   const handleAddFood = async (food: IFood) => {
     try {
       const response = await api.post('/foods', {
